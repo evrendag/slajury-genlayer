@@ -2,10 +2,8 @@
 
 Verified on 12 September 2026 UTC:
 
-- Direct Mode contract tests: **8 passed**
-- ESLint: **passed**
-- Production Vinext/Cloudflare build: **passed**
-- Python syntax compilation: **passed**
+- Production application build: **passed**
+- Python contract syntax compilation: **passed**
+- Contract test suite: **included for Direct Mode execution**
 
-The suite covers owner authorization, unsafe URL rejection, all fail-closed
-paths, validator disagreement, challenges and immutable passport lineage.
+The repository includes deterministic test cases for authorization, unsafe URL rejection, fail-closed paths, validator disagreement, challenges and immutable record lineage. Direct Mode and Full Consensus results must be recorded only after execution in GenLayer Studio.
